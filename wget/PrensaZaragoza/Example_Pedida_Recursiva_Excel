@@ -1,0 +1,12 @@
+get --user-agent=Mozilla --no-directories --accept=*.xls -r -l 1 https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/2080
+
+--user.... To indicate you are using mozilla (to avoid being blocked)
+
+--no-directories: QUe no te cree subcarpetas
+
+--accept=*.xls--> Que te coja todos los archivos xls
+
+-r--> descarga recursiva (todos)
+
+-l 1 --> Para que solo esté en ese nivel (si no te descarga toda la web
+
