@@ -1,0 +1,4 @@
+https://datos.madrid.es/egob/catalogo/209548-255-censo-locales-historico.csv
+https://datos.madrid.es/egob/catalogo/209548-258-censo-locales-historico.csv
+https://datos.madrid.es/egob/catalogo/209548-256-censo-locales-historico.csv
+https://datos.madrid.es/egob/catalogo/209548-257-censo-locales-historico.csv
