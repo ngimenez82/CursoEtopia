@@ -1,0 +1,11 @@
+--2021-11-06 09:34:59--  https://www.zaragoza.es/sede/servicio/vehiculo.csv?start=0
+Resolving www.zaragoza.es (www.zaragoza.es)... 194.224.70.75
+Connecting to www.zaragoza.es (www.zaragoza.es)|194.224.70.75|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18021 (18K) [text/csv]
+Saving to: ‘./vehiculos.csv’
+
+./vehiculos.csv                                        0%[                                                                                                                     ]       0  --.-KB/s               ./vehiculos.csv                                      100%[====================================================================================================================>]  17.60K  --.-KB/s    in 0.002s  
+
+2021-11-06 09:34:59 (10.7 MB/s) - ‘./vehiculos.csv’ saved [18021/18021]
+
