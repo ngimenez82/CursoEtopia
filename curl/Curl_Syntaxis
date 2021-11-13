@@ -1,0 +1,27 @@
+curl --location --request GET 'https://api.covid19api.com/'
+
+--peticion general
+
+
+curl --location spain --request GET 'https://api.covid19api.com/'
+
+curl --location --request GET 'https://api.covid19api.com/countries' | jq 'map(.Country)
+
+
+--Que me liste todos los países que hay en la database
+
+curl --location --request GET 'https://api.covid19api.com/dayone/country/south-africa/status/confirmed'
+
+--Te saca la info para el país que eliges
+
+curl --location --request GET 'https://api.covid19api.com/dayone/country/spain/status/confirmed' > CasosConfirmadosEspana.json
+
+
+--Te saca la info para el país que eliges y te los guarda en formato json
+
+curl --location --request GET 'https://api.covid19api.com/dayone/country/spain/status/confirm' > CasosConfirmadosEspana.json
+
+
+CADA API TIENE SU PROPIA ESTRUCTURA.
+
+curl --location --request GET  'http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series'
